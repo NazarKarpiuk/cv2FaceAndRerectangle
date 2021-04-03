@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 faceCascade = cv2.CascadeClassifier("Resources/haarcascade_frontalface_default.xml")
-inputImg = cv2.imread("Resources/chmo.jpg")
+inputImg = cv2.imread("Resources/face1.jpg")
 #img = cv2.resize(inputImg,(400,700))
 imgGray = cv2.cvtColor(inputImg,cv2.COLOR_BGR2GRAY)
 
